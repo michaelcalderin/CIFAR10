@@ -1,4 +1,4 @@
-# Project 3
+# Project 3: Image Classification for CIFAR-10 Dataset
 
 ## Overview
 In Section 1 of this project, an ANN was compared to random forest with PCA and random forest without dimensionality reduction for image classification on CIFAR-10. In Section 2, a transformer fetched from Hugging Face was used on CIFAR-10 and then improvements were attempted with data augmentation, regularization, and learning rate scheduling. As a general note, scripts/notebooks should be extracted to your working directory (removed from *Scripts* folder). For Section 1, it is usually expected that the *Models* folder is unzipped and present in that same working directory. For Section 2, each model is stored as a *..._vit_model* folder and a *.keras* file (both in the *Models* folder). Unlike in Section 1, these are expected to be placed in the working directory and should not stay in the *Models* folder. These are general guidelines and may vary depending on the notebook since they were written before the GitHub repository was properly structured.
@@ -27,3 +27,6 @@ In Section 1 of this project, an ANN was compared to random forest with PCA and 
 - Refer to the testing notebooks to see the models loaded in and used for predictions.
 - Section 1 models require the preprocessing pipeline in the *Pipelines* folder and the actual models are *.pkl* files.
 - Section 2 models require the preprocessing pipeline provided by Hugging Face. The *.keras* file is the model but requires a custom ViTLayer class object to be loaded in which needs the *..._vit_model* folder to read from. Details can be found in the training or testing notebooks and reading *general_training.py* is recommended.
+
+## Update 5/23/2025
+- *Models.zip* was removed due to a lack of space. Follow the Jupyter Notebooks if interested in generating the models.
