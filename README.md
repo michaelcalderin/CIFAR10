@@ -29,4 +29,4 @@ In Section 1 of this project, an ANN was compared to random forest with PCA and 
 - Section 2 models require the preprocessing pipeline provided by Hugging Face. The *.keras* file is the model but requires a custom ViTLayer class object to be loaded in which needs the *..._vit_model* folder to read from. Details can be found in the training or testing notebooks and reading *general_training.py* is recommended.
 
 ## Update 5/23/2025
-- *Models.zip* was removed due to a lack of space. Follow the Jupyter Notebooks if interested in generating the models.
+- This repository is a copy (an organization hosts the original), so *Models.zip* was removed due to spatial constraints. Follow the Jupyter Notebooks if interested in generating the models.
